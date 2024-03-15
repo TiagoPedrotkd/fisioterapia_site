@@ -7,59 +7,155 @@
 
     <title> </title>
 
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">-
+    <link rel="stylesheet" type="text/css" href="./api/fontawesome/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
 
 <body>
-    <header id="cabeçalho">
-        <div id="logo-container"></div>
-        <nav id="menu-container">
-            <div id="botao-container">
-                <div id="linhas">
-                    <div id="span"></div>
-                    <div id="span"></div>
-                    <div id="span"></div>
+    <header id="cabeçalho" style="background-color: #fcfdfb;"">
+        <div id=" logo-container">
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand fw-bold" href="#" style="color: #173463;">
+                            <img src="" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                            Claúdia Sanches
+                        </a>
+                    </div>
+                </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                    style="color: #173463;">
+                    <span class="navbar-toggler-icon" style="color: #173463;"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" style=" color: #173463;" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" style=" color: #173463;" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" style="color: #173463;">Contactos</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <ul>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Serviços</a></li>
-                <li><a href="">Contactos</a></li>
-            </ul>
         </nav>
     </header>
-    <div id="nav_secundaria">
-        <ul>
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Serviços</a></li>
-            <li><a href="">Contactos</a></li>
-        </ul>
-    </div>
-    <section id="slide-show_container">
-        <video autoplay muted loop
-            src="./videos/NASCER DO SOL _ NEVOEIRO _ PAISAGEM _ - (Vídeo Livre de Direitos Autorais).mp4"
-            type="video/mp4"></video>
-        <div id="text-slide-container">
-            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+    <section class="d-flex justify-content-center align-items-center">
+        <div class="w-100"> <video autoplay muted loop playsinline class="w-100 opacity-50">
+                <source src="./videos/NASCER DO SOL _ NEVOEIRO _ PAISAGEM _ - (Vídeo Livre de Direitos Autorais).mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+        <div class="position-absolute text-center fw-bold lead" style="color: #173463;">
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit</span>
         </div>
     </section>
     <main id="main-content">
 
     </main>
-    <footer id="rodape_container">
-        <div id="rodape_contactos_container">
-            <span>Contactos</span>
-            <ul id="rodape_contactos_container_lista">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+    <section class="d-flex justify-content-center align-items-center py-5" style="border-top:solid 2px #173463;">
+        <div class=" container" style="padding: 60px;">
+            <div class=" row">
+                <div class="col-md-6 text-center">
+                    <h1>Redes Sociais</h1>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <div id="redesociais-icons" style="padding-top: 15px;">
+                        <a href="" class="text-dark me-3">
+                            <i class="fab fa-facebook fa-2xl"></i>
+                        </a>
+                        <a href="" class="text-dark">
+                            <i class="fab fa-instagram fa-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="" style="color: #fcfdfb; background-color: #173463; padding: 40px;">
+        <div class="container mt-3 d-flex">
+            <div class="d-flex flex-column flex-lg-row">
+                <div class="col">
+                    <p class="font-family-serif font-italic fw-bold">CONTACTOS</p>
+                    <ul class="list-unstyled list-group fw-bold">
+                        <li class="list-group-item border-0" style="color: #fcfdfb; background-color: #173463;">
+                            <i class=" fa-solid fa-house fm-sm"></i>
+                            <span>xxxxxxxxxxxx, Portugal</span>
+                        </li>
+                        <li class="list-group-item border-0" style="color: #fcfdfb; background-color: #173463;">
+                            <i class=" fa-solid fa-mobile-screen-button fm-sm"></i>
+                            <span>+351 xxx xxx xxx</span>
+                        </li>
+                        <li class="list-group-item border-0" style="color: #fcfdfb; background-color: #173463;">
+                            <i class=" fa-solid fa-phone fm-sm fa-flip-horizontal"></i>
+                            <span>+351 xxx xxx xxx</span>
+                        </li>
+                        <li class="list-group-item border-0" style="color: #fcfdfb; background-color: #173463;">
+                            <i class=" fa-regular fa-envelope fm-sm"></i>
+                            <span>xxxxxxxxxxxxxxxx@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p class="font-family-serif font-italic fw-bold">HORÁRIO</p>
+                    <ul class="list-unstyled list-group fw-bold">
+                        <li class="list-group-item border-0" style="color: #fcfdfb; background-color: #173463;">
+                            <i class=" fa-regular fa-clock fm-sm"></i>
+                            <span></span>
+                        </li>
+                        <li class="list-group-item border-0" style="color: #fcfdfb; background-color: #173463;">
+                            <i class=" fa-regular fa-comment-dots fm-sm"></i>
+                            <span>Horário de atendimento</span>
+                        </li>
+                        <li class="list-group-item border-0" style="color: #fcfdfb; background-color: #173463;">
+                            <i class="fa-regular fa-circle-xmark fm-sm"></i>
+                            <span></span>
+                        </li>
+                    </ul>
+                </div>
+                <div id="footer-links" class="col">
+                    <p class="fw-bold font-family-serif font-italic">LINKS</p>
+                    <ul class="list-unstyled list-group fw-bold">
+                        <li class="list-group-item border-0" style="background-color: #173463;"><a
+                                href="https://www.livroreclamacoes.pt/Pedido/ElogioSugestao"
+                                class="text-decoration-none" style="color:#fcfdfb;"
+                                onmouseover="this.style.color='#44aab8'" onmouseout="this.style.color='#fcfdfb'">Livro
+                                de Elogios
+                                Online</a>
+                        </li>
+                        <li class="list-group-item border-0" style="background-color: #173463;"><a
+                                href="https://www.livroreclamacoes.pt/Pedido/Reclamacao" class="text-decoration-none"
+                                style="color: #fcfdfb;" onmouseover="this.style.color='#44aab8'"
+                                onmouseout="this.style.color='#fcfdfb'">Livro de
+                                Reclamações
+                                Online</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center fw-bold small mt-5">
+            <p>&copy;2024 ClaudiaSanches. Todos os direitos reservados. Desenvolvido por Tiago Pedro</p>
         </div>
     </footer>
-    <script type="text/javascript" src="./js/main.js">
-    </script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 </body>
 
 
