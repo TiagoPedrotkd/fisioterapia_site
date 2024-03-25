@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Claudia Sanches</title>
 
-    <link rel="stylesheet" href="../css/home_blog.css">
+    <link rel="stylesheet" href="../css/home_blog_2.css">
     <link rel="stylesheet" href="../css/editor_blog.css">
 </head>
 
 <body>
-
     <div class="banner">
         <input type="file" accept="image/*" id="banner-upload" hidden>
         <label for="banner-upload" class="banner-upload-btn"><img src="../images/upload.png"
@@ -21,13 +20,19 @@
     <div class="blog">
         <textarea type="text" class="title" placeholder="Titulo do Blog..."></textarea>
         <textarea type="text" class="article" placeholder="Começar a escrever aqui..."></textarea>
-    </div>
+    </div>-
 
     <div class="blog-options">
         <button class="btn-blog dark publish-btn">publish</button>
         <input type="file" accept="image/*" id="image-upload" hidden>
         <label for="image-upload" class="btn-blog grey upload-btn">Upload Image</label>
     </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+    <script src="../js/firebase_blog.js"></script>
+    <script src="../js/editor_blog.js"></script>
 
 </body>
 
